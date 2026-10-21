@@ -32,7 +32,7 @@ export function asUser<T>(db: PGlite, userId: string | null, fn: (tx: Transactio
   })
 }
 
-export async function one<T = any>(tx: Transaction | PGlite, sql: string, params: unknown[] = []): Promise<T> {
+export async function one<T = unknown>(tx: Transaction | PGlite, sql: string, params: unknown[] = []): Promise<T> {
   const { rows } = await tx.query<{ result: T }>(sql, params)
   return rows[0].result
 }

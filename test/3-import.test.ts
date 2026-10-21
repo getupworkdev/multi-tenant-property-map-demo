@@ -6,8 +6,10 @@ import { ADMIN_A, MEMBER_A, TENANT_A, TENANT_B, asUser, makeDb, one, read } from
 let db: PGlite
 const feed = csvToRecords(read('data/sample-feed.csv'))
 
+type ImportResult = { batch_id: string; inserted: number; updated: number; unchanged: number; rejected: number; rejected_rows: unknown[] }
+
 const importFeed = (user: string, rows: unknown[], file = 'sample-feed.csv') =>
-  asUser(db, user, (tx) => one(tx, 'select public.import_properties($1, $2::jsonb) as result', [file, JSON.stringify(rows)]))
+  asUser(db, user, (tx) => one<ImportResult>(tx, 'select public.import_properties($1, $2::jsonb) as result', [file, JSON.stringify(rows)]))
 
 const count = async (tenant: string) =>
   (await db.query<{ n: number }>('select count(*)::int as n from public.properties where tenant_id = $1', [tenant])).rows[0].n
