@@ -1,0 +1,13 @@
+source_id,address,city,postcode,owner_name,lat,lng
+FEED-0001,23 Linden Blvd,Toronto,M5T 4V3,Owner 001,43.663683,-79.43017
+FEED-0002,14 Juniper Cres,Toronto,M9G 4T5,Owner 002,43.667016,-79.415108
+FEED-0003,130 Juniper Cres,Toronto,M7R 8K6,Owner 003,43.69859,-79.455531
+FEED-0001,1 Error Row,Toronto,M5T 4V3,Owner X,43.663683,-79.43017
+FEED-0004,37 Birch Rd,Toronto,M5L 9T0,Owner 004,43.655686,-79.452065
+FEED-0005,200 Larch Ln,Toronto,M8P 5A4,Owner 005,43.64587,-79.435633
+FEED-0006,104 Larch Ln,Toronto,M3N 2T1,Owner 006,43.670418,-79.430197
+FEED-0007,115 Hazel Pl,Toronto,M6H 7K0,Owner 007,43.683632,-79.448512
+FEED-0008,40 Spruce Ave,Toronto,M7E 4C0,Owner 008,43.687992,-79.466557
+FEED-0009,49 Hawthorn Ave,Toronto,M6H 3B4,Owner 009,43.646228,-79.417436
+FEED-9001,10 Nowhere St,Toronto,,Owner Y,95.5,-79.4
+bad id!,11 Nowhere St,Toronto,,Owner Z,43.7,-79.4

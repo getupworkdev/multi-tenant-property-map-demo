@@ -1,0 +1,56 @@
+[
+  {
+    "id": "ghl_a_exact_1",
+    "contactName": "Owner 004",
+    "address1": "37 Birch Road",
+    "city": "Toronto",
+    "postalCode": "M5L 9T0",
+    "latitude": 43.655716000000005,
+    "longitude": -79.452065
+  },
+  {
+    "id": "ghl_a_exact_2",
+    "contactName": "Owner 018 Holdings Inc.",
+    "address1": "150 Willow Dr",
+    "city": "Toronto",
+    "postalCode": "M2N 4J8",
+    "latitude": 43.707001000000005,
+    "longitude": -79.424219
+  },
+  {
+    "id": "ghl_a_exact_3",
+    "contactName": "Owner 043",
+    "address1": "290 Poplar St",
+    "city": "Toronto",
+    "postalCode": "M7T 8C7",
+    "latitude": 43.688140000000004,
+    "longitude": -79.457494
+  },
+  {
+    "id": "ghl_a_building_1",
+    "contactName": "Cedar Building Management",
+    "address1": "400 Cedar Ave",
+    "city": "Toronto",
+    "postalCode": "M3Y 7Z9",
+    "latitude": 43.67816,
+    "longitude": -79.408691
+  },
+  {
+    "id": "ghl_a_typo",
+    "contactName": "Owner 061",
+    "address1": "251 Brich Rd",
+    "city": "Toronto",
+    "postalCode": "M1P 9W3",
+    "latitude": 43.690492,
+    "longitude": -79.445785
+  },
+  {
+    "id": "ghl_a_none",
+    "contactName": "Unrelated Contact",
+    "address1": "PO Box 2001",
+    "city": "Markham",
+    "postalCode": "L3R 0Z9",
+    "latitude": 43.8561,
+    "longitude": -79.337
+  }
+]
